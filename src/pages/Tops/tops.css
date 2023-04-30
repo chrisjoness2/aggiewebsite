@@ -1,0 +1,56 @@
+.top1page{
+    height: 100vh;
+}
+
+.itemName{
+    color: black;
+}
+
+.itemPrice{
+    color: black;
+    text-align: left;
+}
+
+.itemDescription{
+    color: black;
+}
+
+.addToCartBttn{
+    height: 2.5rem;
+    width: 350px;
+    font-size: 17px;
+    border-radius: 7px;
+    background-color: white;
+    outline-width: medium;
+    outline-color: black;
+    outline-style: solid;
+    border: none;
+    transition: .3s;
+}
+
+.addToCartBttn:hover {
+    background-color: #F5DF99;
+}
+
+.topDetails{
+    position: relative;
+    text-align: left;
+    width: 425px;
+    left: 930px;
+    top: 110px;
+    }
+
+.images{
+    position: relative;
+    top: -80px;
+    left: 10px;
+    width: 900px;
+    
+}
+
+.imgIndividual{
+    height: 500px;
+    width: 400px;
+    padding: 5px;
+}
+

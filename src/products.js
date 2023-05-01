@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom';
 export const PRODUCTS = [
     {
         id: 1,
-        productName: <Link to="/top1"> Blue Top </Link>,
+        productName: <Link to="/top1"> Teal Top </Link>,
         productImage: top1, 
         price: "22",
         tops: '/top1'

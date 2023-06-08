@@ -1,5 +1,24 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ShopContext } from "../../context/shop-context";
 import './tops.css'
+
+
+
+
+
+export const Name = (props) => {
+    const {id} = props.data;
+    const { addToCart } = useContext(ShopContext);
+
+    return (
+    <div>
+    
+        <button className="addToCartBttn" onClick={() => addToCart(id)}> Add To Cart </button>
+
+        
+    </div>
+    );
+};
 
 
 export const ItemDescription = (props) => {
@@ -18,7 +37,8 @@ export const ItemDescription = (props) => {
         </div>
         
         <div>
-            <button className="addToCartBttn"> Addddddd To Cart </button>
+        
+        <h3> Select Size </h3>
         </div>
         
 

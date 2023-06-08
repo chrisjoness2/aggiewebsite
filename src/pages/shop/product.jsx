@@ -7,26 +7,6 @@ import top1 from "../../images/top1.jpeg";
  
 
 
-export const Name = (props) => {
-    const {id, productName, price, productImage, tops} = props.data;
-    const { addToCart } = useContext(ShopContext);
-
-    return (
-    <div>
-    
-    
-        {price}
-        <button onClick={() => addToCart(id)}> Trial Button </button>
-
-        
-    </div>
-    );
-};
-
-
-
-
-
 export const Product = (props) => {
     const {id, productName, price, productImage, tops} = props.data;
     return (

@@ -77,23 +77,11 @@ export const PRODUCTS = [
 ]
 
 
-export const Top1Example = [
-    {
+export const Top1Add = [
+    {   
         id: 1,
-        productName: <Link to="/top1"> Blue Top </Link>,
-        productImage: top8,
-        price: "40"
-    },
-    {
-        id: 2,
-        productName: <Link to="/top1"> Blue Top </Link>,
-        productImage: top8,
-        price: "50"
-    },
-    {
-        id: 3,
-        productName: <Link to="/top1"> Blue Top </Link>,
-        productImage: top8,
-        price: "50"
+        productName:  "Snug Fit Long Sleeve Sweater",
+        productImage: top1,
+        price: 49
     },
 ]

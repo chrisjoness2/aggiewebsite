@@ -2,13 +2,13 @@
 
 import React, { createContext, useState } from "react";
 import { PRODUCTS } from "../products";
-import { Top1Example } from "../products";
+import { Top1Add } from "../products";
 
 export const ShopContext = createContext(null);
 
 const getDefaultCart = () => {
     let cart = {}
-    for (let i =1; i < Top1Example.length + 1; i++) {
+    for (let i =1; i < Top1Add.length + 1; i++) {
         cart[i] = 0
     }
     return cart;

@@ -16,6 +16,7 @@
 }
 
 .addToCartBttn{
+    position: relative;
     height: 2.5rem;
     width: 350px;
     font-size: 17px;
